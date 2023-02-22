@@ -41,7 +41,7 @@ const config = {
             id: 2,
           },
           {
-            text: "Frontend Masters",
+            text: "FrontEnd Masters",
             url: "https://frontendmasters.com",
             id: 3,
           },
