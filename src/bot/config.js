@@ -48,6 +48,26 @@ const config = {
         ],
       },
     },
+    {
+      widgetName: "nlpLinks",
+      widgetFunc: (props) => <LinkList {...props} />,
+      props: {
+        options: [
+          {
+            text: "Introduction to NLP",
+            url:
+              "https://towardsdatascience.com/a-gentle-introduction-to-natural-language-processing-e716ed3c0863/",
+            id: 1,
+          },
+          {
+            text: "HuggingFace course",
+            url:
+              "https://huggingface.co/learn/nlp-course/chapter1/1",
+            id: 2,
+          }
+        ],
+      },
+    },
   ],
 };
 

@@ -14,6 +14,10 @@ class MessageParser {
     if (lowerCaseMessage.includes("javascript")) {
       this.actionProvider.handleJavascriptList();
     }
+
+    if (lowerCaseMessage.includes("nlp")) {
+      this.actionProvider.handleNLPList();
+    }
   }
 }
 
